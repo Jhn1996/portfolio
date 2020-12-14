@@ -301,7 +301,7 @@ footer{
   }
 
   .fab {
-    font-size: 20px;
+    font-size: 30px;
     width: auto;
     text-align: center;
     text-decoration: none;
@@ -317,8 +317,8 @@ footer{
     padding: 10px;
   }
   .logo{
-    display: none;
-  }
+    align-self: center;}
+
   li{
     padding: 5px;
   }
@@ -352,9 +352,17 @@ footer{
     margin-left: auto;
     margin-right: auto;
   }
+  .fab {
+    font-size: 20px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    padding: 5px;
+  }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 600px) {
   ul{
     justify-content: center;
     font-size: 18px;
