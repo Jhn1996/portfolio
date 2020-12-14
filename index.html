@@ -2,36 +2,59 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+    <link rel="icon" type="image/png" href="images/logo1.png"/>
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/16130b3188.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <title>Home</title>
   </head>
   <body>
-    <header>
       <a class="skip" href="#main">Skip to content</a>
-      <nav>
-        <ul>
-          <li><img class="logo" src="images/logo.png" alt="JN logo"></li>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="art.html">Art</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+      <nav id="nav-bar">
+        <div class = "container">
+          <img class="logo" src="images/logo1.png" alt="JN logo">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="art.html">Art</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </nav>
-    </header>
     <main id="main">
-      <div class="box">
-        <h1>Hi, I'm <span class="name">Jinghan Ni</span>.<br>I'm a UX designer and researcher. I enjoy creating inclusive, delightful, and impactful human-centric experiences.</h1>
-        <br><h2>Former Design Intern <a href="https://www.goinvo.com/" class="active" target="_blank">@Goinvo.</a></h2>
+      <div class="content">
+        <div class="box">
+          <header>
+          <h1>Hi, I'm <span class="name">Jinghan Ni</span>.<br>I'm a UX designer and researcher. I enjoy creating inclusive, delightful, and impactful human-centric experiences.</h1>
+          <br><h2>Former Design Intern <a href="https://www.goinvo.com/" class="active" target="_blank">@Goinvo.</a></h2>
+        </header>
+        </div>
+        <div class="box">
+          <img class="portrait" src="images/girl.jpeg" alt="girl smiling">
       </div>
-      <div class="box">
-        <img class="portrait" src="images/girl.jpeg" alt="girl smiling">
+            <div class = "project">
+              <h1>Gio</h1>
+              <h2>Behavioral data tracking for children with autism</h2>
+              <img class="project-img-1" src="images/gio.png" alt="the gio app">
+            </div>
+        <div class = "project1">
+          <h1>Jojo</h1>
+          <h2>A co-owned beloved companion</h2>
+          <img class="project-img-2" src="images/jojo.png" alt="jojo and the phone app mockup">
+        </div>
       </div>
     </main>
+    <hr>
     <footer>
-    <p>&copy;2020 made by Jinghan Ni </p>
+    <h3 id="footer">Let's connect!</h3>
+    <p>Feel free to reach out to me at:</p>
+    <p><a href="mailto:jinghanni@gmail.com" class="active">jinghanni@gmail.com</a></p>
+    <a href="https://www.instagram.com/jinghan_ni/" class="fab fa-instagram" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/jinghan-ni-13bb81132/" class="fab fa-linkedin" target="_blank"></a>
+    <a href="https://github.com/Jhn1996" class="fab fa-github" target="_blank"></a>
+    <p>&copy;2020 made with <span class="fas fa-heart"></span> by Jinghan Ni</p>
     </footer>
  </body>
  </html>

@@ -2,24 +2,59 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/logo1.png"/>
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/16130b3188.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <title>contact</title>
+    <title>Contact</title>
   </head>
   <body>
-    <header>
-      <ul>
-        <li><img class="logo" src="images/logo.png" alt="JN logo"></li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="art.html">Art</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
-    </header>
-    <main><h1>Contact</h1></main>
+    <a class="skip" href="#main">Skip to content</a>
+    <nav id="nav-bar">
+      <div class = "container">
+        <img class="logo" src="images/logo1.png" alt="JN logo">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="art.html">Art</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main id="main">
+    <div class="parallax"></div>
+    <div class="contactform">
+      <h1 class="contact-title">Contact Me</h1>
+      <form action="https://formspree.io/f/mwkwrrbj" method="POST">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+    
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Leave a message" style="height:200px"></textarea>
+    
+        <input type="submit" value="Contact me">
+      </form>
+    </div>
+</main>
+    <hr>
     <footer>
-      <p>&copy;2020 made by Jinghan Ni </p>
+    <h3 id = footer>Let's connect!</h3>
+    <p>Feel free to reach out to me at:</p>
+    <p><a href="mailto:jinghanni@gmail.com" class="active">jinghanni@gmail.com</a></p>
+    <a href="https://www.instagram.com/jinghan_ni/" class="fab fa-instagram" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/jinghan-ni-13bb81132/" class="fab fa-linkedin" target="_blank"></a>
+    <a href="https://github.com/Jhn1996" class="fab fa-github" target="_blank"></a>
+    <p>&copy;2020 made with &#127925 by Jinghan Ni</p>
     </footer>
   </body>
 </html>
