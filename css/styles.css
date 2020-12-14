@@ -301,13 +301,11 @@ footer{
   }
 
   .fab {
-    font-size: 18px;
-    font: montsorret;
+    font-size: 20px;
     width: auto;
     text-align: center;
     text-decoration: none;
     margin: 20px;
-    font-family: 'Montserrat';
     padding: 5px;
   }
 
